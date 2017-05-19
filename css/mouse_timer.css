@@ -1,0 +1,10 @@
+#circle {
+    border-radius: 50%;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    /*z-index: 0;*/
+    opacity: 0.5;
+    display: none;
+}

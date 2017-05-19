@@ -1,0 +1,9 @@
+#counter {
+    border-radius: 50%;
+    background-color: green;
+    margin:0 50% 0 50%;
+    min-height: 30px;
+    min-width: 40px;
+    width: auto;
+    text-align: center;
+}
