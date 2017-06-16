@@ -16,7 +16,7 @@ function getResponse() {
         xml.send();
 
         var json = new XMLHttpRequest();
-        json.open("GET", 'webservices/api-employees.php?output=json&amount='+i.value, false);
+        json.open("GET", 'webservices/api-employees.php?output=json&amount='+i.value, true);
         json.send();
         showResponseJSON(json.responseText);
     } else {
